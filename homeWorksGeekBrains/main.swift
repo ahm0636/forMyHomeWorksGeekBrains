@@ -102,7 +102,7 @@ class FirstCar: ArrayOfSpeed {
         self.color = color
         self.cost = cost
         self.speedRange = speedRange
-    }
+   }
 
 
 }
