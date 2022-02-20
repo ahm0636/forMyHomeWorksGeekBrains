@@ -21,6 +21,8 @@ enum luggage {
 }
 
 
+
+
 protocol CarCharacteristics {
     var weight: Int {get set}
     var color: String {get set}
@@ -31,9 +33,13 @@ protocol CarCharacteristics {
     var fuel: Int {get set}
 }
 
+
+
 protocol SpeedChangeble: CarCharacteristics {
     mutating func changeSpeed()
 }
+
+
 
 enum onOffSwitchTurbo {
 
@@ -63,6 +69,8 @@ extension ArrayOfSpeed {
         }
     }
 }
+
+
 
 
 class FirstCar: ArrayOfSpeed {
@@ -106,6 +114,7 @@ class FirstCar: ArrayOfSpeed {
 
 
 }
+
 
 
 
