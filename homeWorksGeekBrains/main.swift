@@ -140,6 +140,8 @@ protocol Brand: CarCharacteristics {
     var brandName: String {get set}
 }
 
+
+
 enum nitroOnOffSwitch {
     case on
     case off
@@ -203,6 +205,7 @@ var myHyperCar = HyperCar(weight: 0, color: "",
 print("\(myHyperCar.description)")
 
 
+
 var myThirdCar = SuperCar(brandName: "BMW M5", weight: 1900, color: "black", breakSystem: "carbon", teerSize: 22, engineCapacity: "V8", maxSpeed: 330, fuel: 100, nitro: .on)
 
 print("""
@@ -211,6 +214,6 @@ is \(myThirdCar.color) and has
 \(myThirdCar.engineCapacity) engine,
 break system - \(myThirdCar.breakSystem)
 teerSize - \(myThirdCar.teerSize),
-maximum speed - \(myThirdCar.maxSpeed),
+maxximum speed - \(myThirdCar.maxSpeed),
 \(String(describing: ArrayOfSpeed.checkForSuperCar))
 """)
